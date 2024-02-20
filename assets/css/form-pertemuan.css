@@ -184,3 +184,9 @@ form .btn input[type="submit"]{
   font-weight: 500;
   cursor: pointer;
 }
+
+.form-scrollable {
+  max-height: 300px; /* atur tinggi maksimum sesuai kebutuhan Anda */
+  overflow-y: auto; /* tambahkan scrolling vertikal jika konten lebih besar dari ukuran maksimum */
+}
+
